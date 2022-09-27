@@ -20,7 +20,7 @@ public class UserActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Uri  phone = Uri.parse("tel://123456");
-                Intent it = new Intent(Intent.ACTION_DIAL,phone);
+                Intent it = new Intent(Intent.ACTION_CALL,phone);
                 startActivity(it);
             }
         });
